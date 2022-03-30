@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>JARDITOU - Produits</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="jarditou_css/assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header>
+        <div class="row align-items-end">
+          <div class="col-md-10 col-lg-10" id="entête">
+            <img
+              id="logo_jarditou"
+              class="d-none d-md-block img-fluid"
+              src="src/img/jarditou_logo.jpg"
+              alt="Jardineuse poussant une brouette."
+            />
+          </div>
+          <div class="col-md-2 col-lg-2 mb-5 d-none d-md-block">
+            <h1>Tout le jardin</h1>
+          </div>
+        </div>
+        <div class="enligne">
+          <nav
+            class="navbar navbar-expand-md navbar-light py-0 mb-0"
+            style="background-color: #f0f3f4"
+          >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapsibleNavbar"
+              data-mdb-target="#navbarToggleExternalContent"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <a class="navbar-brand" href="#">Jarditou.com</a>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="tableau.html">Tableau</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <input
+              id="sm navbarToggleExternalContent"
+              type="text"
+              class="recherche mr-sm-2 d-md-block"
+              placeholder="Search"
+            />
+            <button
+              id="rechercher sm navbarToggleExternalContent"
+              type="button"
+              class="btn btn-sm btn-outline-success d-md-block"
+            >
+              Rechercher
+            </button>
+          </nav>
+        </div>
+        <div>
+          <img
+            id="promotion"
+            class="img-fluid"
+            src="src/img/promotion.jpg"
+            alt="Bandeau de promotion pour lames de terrasse."
+          />
+        </div>
+      </header>
+      <main>
+        <!-- <section> -->
+          <div class="table-responsive">
+            <table
+              class="table table-hover table-bordered"
+            >
+              <thead>
+                <tr class="table-secondary">
+                  <th class="h3"><strong>Photo</strong></th>
+                  <th class="h3"><strong>ID</strong></th>
+                  <th class="h3"><strong>Catégorie</strong></th>
+                  <th class="h3"><strong>Libellé</strong></th>
+                  <th class="h3"><strong>Prix</strong></th>
+                  <th class="h3"><strong>Couleur</strong></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table-warning">
+                  <td>
+                    <img
+                      class="img-fluid"
+                      src="src/img/7.jpg"
+                      alt="Un barbecue de couleur brune avec présentation."
+                    />
+                  </td>
+                  <td>7</td>
+                  <td>Barbecues</td>
+                  <td>Aramis</td>
+                  <td>110.00€</td>
+                  <td>Brun</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img
+                      class="img-fluid"
+                      src="src/img/8.jpg"
+                      alt="Un barbecue de couleur noire."
+                    />
+                  </td>
+                  <td>8</td>
+                  <td>Barbecues</td>
+                  <td>Athos</td>
+                  <td>249.99€</td>
+                  <td>Noir</td>
+                </tr>
+                <tr class="table-warning">
+                  <td>
+                    <img
+                      class="img-fluid"
+                      src="src/img/11.jpg"
+                      alt="Un barbecue de couleur chrome avec présentation."
+                    />
+                  </td>
+                  <td>11</td>
+                  <td>Barbecues</td>
+                  <td>Clatronic</td>
+                  <td>135.90€</td>
+                  <td>Chrome</td>
+                </tr>
+                <tr>
+                  <td>
+                    <img
+                      class="img-fluid"
+                      src="src/img/12.jpg"
+                      alt="Un barbecue pour camping."
+                    />
+                  </td>
+                  <td>12</td>
+                  <td>Barbecues</td>
+                  <td>Camping</td>
+                  <td>88.00€</td>
+                  <td>Noir</td>
+                </tr>
+                <tr class="table-warning">
+                  <td>
+                    <img
+                      class="img-fluid"
+                      src="src/img/13.jpg"
+                      alt="une brouette"
+                    />
+                  </td>
+                  <td>13</td>
+                  <td>Brouette</td>
+                  <td>Green</td>
+                  <td>49.00€</td>
+                  <td>Verte</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark mt-0 py-0">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapsibleNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="">Mentions légales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Horaires</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Plan du site</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </footer>
+      <script
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"
+      ></script>
+    </div>
+  </body>
+</html>
